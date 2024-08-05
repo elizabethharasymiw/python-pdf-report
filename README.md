@@ -11,6 +11,10 @@ python3 -m venv python-env
 source python-env/bin/activate
 ```
 ```
+# Deactivate python virtual environment
+deactivate
+```
+```
 # Install required dependencies to the current python virtual environment
 pip install -r requirements.txt
 ```
