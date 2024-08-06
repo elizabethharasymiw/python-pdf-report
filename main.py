@@ -13,7 +13,8 @@ pdf.set_font("Arial", size=12)
 pdf.cell(200, 10, txt="Welcome to FPDF!", ln=True, align='C')
 
 # Add another cell with different content
-pdf.cell(200, 10, txt="This is a simple PDF document.", ln=True, align='C')
+pdf.cell(200, 10, txt="Text Line 1", ln=True, align='C')
+pdf.cell(200, 10, txt="Text Line 2", ln=True, align='C')
 
 # Save the PDF with name .pdf
 pdf.output("example.pdf")
